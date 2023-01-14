@@ -17,7 +17,7 @@ export default function App() {
     localStorage.setItem("textContent", JSON.stringify(text));
   }
 
-  
+
   return (
     <div className="App">
       <textarea value={content} onChange={handleChange} />
